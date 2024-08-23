@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  background-color: #140F34;
+  width: 100%;
+  height: 100%;
+}
+main{
+  background-image: url('../../public/osmosis-home-bg-low.png'),url('../../public/osmosis-home-bg-pattern.svg');
+  background-repeat: no-repeat, repeat;
+  background-size: 40%, 100%;
+  background-position: 12% 100%, 0 0;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
